@@ -33,7 +33,7 @@ for (int z = 0; z < numbers.Length; z++)
     }
 }
 
-WriteLine($"всего {numbers.Length} чисел. Максимальное значение = {max}, минимальное значение = {min}");
+WriteLine($"Максимальное значение = {max}, минимальное значение = {min}");
 WriteLine($"Разница между максимальным и минимальным значением = {max - min}");
 
 void FillArrayRandomNumbers(double[] numbers)
